@@ -36,7 +36,7 @@ class User(db.Model):
 @app.route('/users/ping', methods=['GET'])
 def ping_pong():
     return jsonify({
-        'status': 'success',
+        'status': 'this is a success message',
         'message': 'pong'
     })
 
